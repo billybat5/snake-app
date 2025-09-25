@@ -30,7 +30,7 @@ jobs:
         run: flutter pub run rename setAppName --value "Snake App"
 
       - name: Set launcher icon
-        run: flutter pub run flutter_launcher_icons:main
+        run: flutter pub run flutter_launcher_icons
 
       - name: Build APK
         run: flutter build apk --split-per-abi --release
