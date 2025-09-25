@@ -1,5 +1,5 @@
-name: mi_app_flutter
-description: "A new Flutter project."
+name: snake_app
+description: "A basic Snake game in Flutter."
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -15,6 +15,13 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+  rename: ^3.0.2
+  flutter_launcher_icons: ^0.13.1
 
 flutter:
   uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"

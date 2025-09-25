@@ -23,6 +23,15 @@ jobs:
       - name: Create native project files
         run: flutter create .
 
+      - name: Get new dependencies
+        run: flutter pub get
+
+      - name: Set app name
+        run: flutter pub run rename setAppName --value "Snake App"
+
+      - name: Set launcher icon
+        run: flutter pub run flutter_launcher_icons:main
+
       - name: Build APK
         run: flutter build apk --split-per-abi --release
 
