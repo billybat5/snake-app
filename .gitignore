@@ -1,0 +1,55 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.idea
+.metadata
+.packages
+.project
+.settings/
+.vscode/
+build/
+
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/ios/Pods/
+/ios/Flutter/App.framework
+/ios/Flutter/engine.xcconfig
+/ios/Flutter/pod_runner.xcconfig
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/flutter_export_environment.sh
+/ios/.symlinks/
+/ios/Runner/GeneratedPluginRegistrant.*
+
+# Android
+/android/app/src/main/assets/flutter_assets/
+/android/app/build/
+/android/build/
+/android/.gradle/
+/android/gradle/
+/android/gradlew
+/android/gradlew.bat
+/android/local.properties
+/android/key.properties
+
+# Web
+/web/build/
+
+# Linux
+/linux/build/
+
+# macOS
+/macos/build/
+/macos/Flutter/ephemeral/
+
+# Windows
+/windows/build/
+/windows/flutter/ephemeral/
